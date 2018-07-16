@@ -39,7 +39,7 @@ def hangman(word):
     if not win:
         print("\n"
               .join(stages[0: \
-              wrong]))
+              wrong + 1]))
         print("You lose! It was {}."
               .format(word))
 
